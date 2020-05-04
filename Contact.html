@@ -13,8 +13,55 @@
 
         <hr>
 
-        <p>All the ways how to contact me:</p>
-        <p>e-mail: milan978@gmail.com</p>
+        <form>
+
+            <p>Sign in</p>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" placeholder="username" required><br><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="password" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="email" required>
+
+            <br><br><br>
+
+            <p>Your gender:</p>
+            <input type="radio" id="male" name="gender" value="male"> Male <br>
+            <!-- <label for="male">Male</label><br> MOZE I OVAKO -->
+            <input type="radio" id="female" name="gender" value="female"> Female <br>
+            <!-- <label for="female">Female</label> -->
+
+            <br><br>
+
+            <p>Your age:</p>
+            <input type="radio" name="age" id="option1" value="0-25"> 0-25 <br>
+            <input type="radio" name="age" id="option2" value="26-50"> 26-50 <br>
+            <input type="radio" name="age" id="option3" value="51+"> 51+ <br>
+
+            <br><br>
+
+            <label for="bio">Few words about you:</label><br>
+            <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you..."></textarea>
+
+            <br><br><br><br>
+
+            <label for="question">Security question:</label>
+            <select name="question" id="question">
+                <option value="q1">Where is Chewbacca?</option>
+                <option value="q2">Where is Data?</option>
+                <option value="q3">Where is Jolly Jumper?</option>
+            </select>
+
+            <br><br>
+
+            <label for="answer">Security question answer:</label>
+            <input type="text" id="answer" name="answer">
+
+            <br><br>
+
+            <input type="submit" value="submit the form">
+
+        </form>
         
         <hr>
 
