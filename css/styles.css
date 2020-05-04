@@ -6,6 +6,7 @@ h1{
     color: green;
     background-color: #bae1fa;
     text-align: center;
+    text-decoration: underline;
 
 }
 
@@ -18,5 +19,5 @@ ol{
 ul{
     border-width: 5px;
     border-style: dotted;
-    border-color: blue;
+    border-color: green;
 }
