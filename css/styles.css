@@ -1,0 +1,22 @@
+body{
+    background-color: #ecf8ec;
+}
+
+h1{
+    color: green;
+    background-color: #bae1fa;
+    text-align: center;
+
+}
+
+ol{
+    border-width: 5px;
+    border-style: solid;
+    border-color: green;
+}
+
+ul{
+    border-width: 5px;
+    border-style: dotted;
+    border-color: blue;
+}
