@@ -21,3 +21,12 @@ ul{
     border-style: dotted;
     border-color: green;
 }
+
+div{
+    background-color: #84BC9C;
+    text-align: right;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    
+}
