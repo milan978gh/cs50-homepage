@@ -14,6 +14,9 @@ ol{
     border-width: 5px;
     border-style: solid;
     border-color: green;
+    text-align:center;
+    font-size:50px;
+    font-weight:bold;
 
 }
 
