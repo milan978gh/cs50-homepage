@@ -14,12 +14,7 @@ ol{
     border-width: 5px;
     border-style: solid;
     border-color: green;
-}
 
-ul{
-    border-width: 5px;
-    border-style: dotted;
-    border-color: green;
 }
 
 div{
@@ -33,4 +28,11 @@ div{
 
 a{
     padding: 5px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
