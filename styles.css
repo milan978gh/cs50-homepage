@@ -1,0 +1,45 @@
+body{
+    background-color: #ecf8ec;
+
+}
+
+h1{
+    color: green;
+    background-color: orange;
+    text-align:center;
+
+}
+
+nav{
+    background-color: #84BC9C;
+    text-align: right;
+    font-size: 30px;
+    font-style:italic;
+    font-weight:bold;
+
+}
+
+img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+a{
+    padding:7px;
+}
+
+ol{
+    border-width:5px;
+    border-style:solid;
+    border-color:blue;
+    font-size:80px;
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    margin: 20px;
+}

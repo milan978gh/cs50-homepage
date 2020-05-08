@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <hr>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="product.html">Product</a>
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <hr>
+
+        <h1>Let's make a contact:</h1>
+
+        <form>
+
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" placeholder="username" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="email" required><br><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="password" required><br><br>
+
+            <hr>
+
+            <p>Your gender:</p>
+            <input type="radio" id="male" name="gender" value="male"> Male
+            <input type="radio" id="female" name="gender" value="female"> Female
+
+            <hr>
+
+            <p>Your age:</p>
+            <input type="radio" id="option1" name="age" value="0-25"> 0-25
+            <input type="radio" id="option2" name="age" value="26-50"> 26-50
+            <input type="radio" id="option3" name="age" value="51+"> 51+
+
+            <hr>
+
+            <label for="bio">Few words about you:</label><br>
+            <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you..."></textarea>
+
+            <hr>
+
+            <label for="question">Security question:</label>
+            <select name="question" id="question">
+                <option value="q1">Where is Chewbacca?</option>
+                <option value="q2">Where is Data?</option>
+                <option value="q3">Where is Jolly Jumper?</option>
+            </select>
+
+            <br><br>
+
+            <label for="answer">Security answer:</label>
+            <input type="text" id="answer" name="answer" placeholder="answer">
+
+            <hr>
+
+            <input type="submit" value="submit the form">
+
+            <hr>
+
+        </form>
+
+    </body>
+</html>
